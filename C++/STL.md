@@ -1,12 +1,3 @@
-
-<style>
-
-.red { color: red; }
-.green { color: green; }
-.blue { color: #0000ff; }
-.yellow { color: yellow; background-color: black; } /* 甚至可以加背景色 */
-</style>
-
 ---
 
 # 📘 C++ STL 学习大纲（GitHub Markdown 版）
@@ -365,7 +356,7 @@ int main() {
 ## 📝 补充说明：
 
 ### 🔹 随机访问：
-### <span class="red">brief: 链表不能随机访问</span>，
+### <span style="color: red;">brief: 链表不能随机访问</span>
 - `vector` 和 `deque` 支持 `operator[]` 和 `at()` 访问任意元素；
 - `list` 和 `forward_list` 不支持。
 
